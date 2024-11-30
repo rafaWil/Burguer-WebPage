@@ -28,3 +28,13 @@ body {
     padding: 0px 20px;
     margin: auto;
 }
+
+
+/* HEADER */
+
+.logo a {
+    font-family: 'Calistoga';
+    font-size: 36px;
+    color: #fff;
+    text-decoration: none;
+}
