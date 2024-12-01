@@ -30,7 +30,7 @@ body {
 }
 
 
-/* HEADER */
+/* LOGO */
 
 .logo a {
     font-family: 'Calistoga';
@@ -41,4 +41,14 @@ body {
 
 .logo span {
     color: #fe6a0f;
+}
+
+
+
+/* HEADER */
+header .container {
+    display: flex;
+    align-items: center;
+    padding: 0 45px;
+    gap: 50px;
 }
