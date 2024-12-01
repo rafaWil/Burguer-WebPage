@@ -78,3 +78,18 @@ header nav li a:hover {
     color: #999;
 }
 
+/* Button */
+header nav .button {
+    display: block;
+    border: 1px solid #fff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav .button:hover {
+    background-color: #fe6a0f;
+    color: #141414;
+    border-color: #141414;
+}
