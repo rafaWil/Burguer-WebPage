@@ -139,6 +139,18 @@ header .menu-icon div {
     height: 600px;
 }
 
+.hero h1 {
+    font-family: 'Calistoga';
+    font-size: 70px;
+    line-height: 74px;
+    margin-top: 50px;
+}
+
+.hero p {
+    font-size: 20px;
+    line-height: 26px;
+}
+
 
 /* RESPONSIVE */
 @media (max-width: 820px) {
