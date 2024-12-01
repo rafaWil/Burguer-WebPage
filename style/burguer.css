@@ -76,7 +76,7 @@ header nav li a {
 }
 
 header nav li a:hover {
-    color: #999;
+    color: #fe6a0f;
 }
 
 /* Button and icons */
@@ -113,6 +113,30 @@ header .menu-icon {
 header .menu-icon div {
     height: 6px;
     background-color: #fff;
+}
+
+
+/* HERO */
+.hero .container {
+    display: flex;
+}
+
+.hero .leftside,
+.hero .rightside {
+    flex: 1;
+}
+
+.hero .leftside {
+    padding-bottom: 150px;
+}
+
+.hero .rightside {
+    text-align: center;
+}
+
+.hero .rightside img {
+    width: auto;
+    height: 600px;
 }
 
 
