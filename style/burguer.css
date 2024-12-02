@@ -288,6 +288,35 @@ main .products-grid {
 
 
 
+/* FOOTER */
+footer {
+    background-color: #1f1f1f;
+    color: #5f5f5f;
+}
+
+footer .container {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .copyrights {
+    font-size: 22px;
+}
+
+footer .copyrights a {
+    text-decoration: none;
+    color: #5f5f5f;
+}
+
+footer .copyrights a:hover {
+    color: #fe6a0f;
+}
+
+
+
 /* RESPONSIVE */
 @media (max-width: 820px) {
     header nav {
