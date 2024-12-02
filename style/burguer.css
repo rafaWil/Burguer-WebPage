@@ -149,6 +149,24 @@ header .menu-icon div {
 .hero p {
     font-size: 20px;
     line-height: 26px;
+    margin: 40px 0;
+}
+
+.hero .button {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 12px 55px;
+    border-radius: 5px;
+    background-color: #fe6a0f;
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero .button:hover {
+    background-color: #141414;
+    color: #fff;
+    border: 1px solid #fff;
 }
 
 
@@ -160,5 +178,9 @@ header .menu-icon div {
 
     header .menu {
         display: flex;
+    }
+
+    .hero .container {
+        flex-direction: column;
     }
 }
