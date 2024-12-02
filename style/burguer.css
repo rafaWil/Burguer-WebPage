@@ -231,11 +231,26 @@ main .products-grid {
     border-radius: 8px;
     overflow: hidden;
     text-decoration: none;
+    position: relative;
 }
 
 .product-item:hover {
     opacity: 0.8;
 }
+
+.product-item .warning {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    background-color: #fe6a0f;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+
 
 
 
