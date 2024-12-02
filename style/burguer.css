@@ -250,6 +250,40 @@ main .products-grid {
     border-radius: 5px;
 }
 
+.product-item .photo {
+    text-align: center;
+    background-color: #2b2b2b;
+    padding-top: 30px;
+}
+
+.product-item .photo img {
+    max-width: 100%;
+}
+
+.product-item .info {
+    background-color: #1f1f1f;
+    padding: 60px 30px 30px 30px;
+    margin-top: -50px;
+}
+
+.product-item .product-category {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.product-item .product-name {
+    font-family: 'Calistoga';
+    font-size: 32px;
+    color: #fff;
+    margin: 10px 0;
+}
+
+.product-item .product-price {
+    font-size: 32px;
+    font-weight: bold;
+    color: #fe6a0f;
+}
 
 
 
