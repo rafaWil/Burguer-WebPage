@@ -226,7 +226,13 @@ main .products-grid {
     margin: 40px 0;
 }
 
-
+.product-item {
+    display: block;
+    border-radius: 8px;
+    overflow: hidden;
+    text-decoration: none;
+    
+}
 
 
 
