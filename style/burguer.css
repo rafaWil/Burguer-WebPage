@@ -231,9 +231,11 @@ main .products-grid {
     border-radius: 8px;
     overflow: hidden;
     text-decoration: none;
-    
 }
 
+.product-item:hover {
+    opacity: 0.8;
+}
 
 
 
