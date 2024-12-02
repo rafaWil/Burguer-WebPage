@@ -194,6 +194,28 @@ header .menu-icon div {
     flex: 1;
 }
 
+.search input,
+.search select {
+    width: 100%;
+    background-color: #2b2b2b;
+    color: #fff;
+    font-size: 24px;
+    outline: none;
+    padding: 20px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.search input {
+    background-image: url('../images/searchIcon.png');
+    background-repeat: no-repeat;
+    background-position: 20px center;
+    padding-left: 60px;
+}
+
+.search select {
+    border-right: 20px solid transparent;
+}
 
 
 /* RESPONSIVE */
